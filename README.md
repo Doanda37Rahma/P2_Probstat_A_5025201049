@@ -31,7 +31,10 @@ x = c(78,75,67,77,70,72,78,74,77)
 y = c(100,95,70,90,90,90,89,90,100)
 sd(x-y)
 ```
-Standar deviasi dari selisih pasangan tabel diatas adalah ❓❓❓
+![no1a-jwb](https://user-images.githubusercontent.com/66405353/170908806-38080726-6d51-49e9-86aa-2d2df539d4f6.png)
+
+
+Standar deviasi dari selisih pasangan tabel diatas adalah `6.359595`
 
 
 ### 1b
