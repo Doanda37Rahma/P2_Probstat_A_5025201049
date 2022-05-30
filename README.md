@@ -145,7 +145,7 @@ pvalue = 2*pnorm(q=zstat, lower.tail=FALSE)
 pvalue
 ```
 
-![no3b-jwb](https://user-images.githubusercontent.com/66405353/170896849-1efa4b0a-0dc0-4b40-b8dd-d97cbeb99910.png)
+![no3b-jwb](https://user-images.githubusercontent.com/66405353/170922278-ea92e30a-efdb-4e1a-8530-a6c41acfaacc.png)
 
 Dihasilkan pvalue `0.06444906`
 
@@ -158,7 +158,7 @@ zsum.test(
   alternative = "two.sided", var.equal = TRUE
 )
 ```
-![no3c-jwb](https://user-images.githubusercontent.com/66405353/170897652-27ff10af-4bac-4b8e-b0e1-018208079956.png)
+![no3c-jwb](https://user-images.githubusercontent.com/66405353/170922356-9bf98f96-d7dd-46ca-a110-4561e66abc01.png)
 
 95% confidence interval 
 `-0.05098149 <= µ1 - µ2 <= 1.75098149 `
@@ -166,19 +166,11 @@ zsum.test(
 ### 3d
 D. Nilai Kritikal
 ```r
-xbar1 = 3.64 
-xbar2 = 2.79
-n1 = 19
-n2 = 27
-sigma1 = 1.67
-sigma2 = 1.32
-zstat = (xbar1-xbar2-0)/sqrt(sigma1*sigma1/n1+sigma2*sigma2/n2)
-pvalue = 2*pnorm(q=zstat, lower.tail=FALSE)
-pvalue
+critVal = qnorm(p=.05/2, lower.tail=FALSE)
+critVal
 ```
 
-![no3d-jwb](https://user-images.githubusercontent.com/66405353/170897668-2459f6fe-9f7a-4f0d-8b9f-2232ef4735ff.png)
-
+![no3d-jwb](https://user-images.githubusercontent.com/66405353/170922412-a2b75b6d-f853-4b48-a6a4-fb2426822091.png)
 
 ### 3e
 E. Keputusan
