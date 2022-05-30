@@ -175,7 +175,7 @@ critVal
 ### 3e
 E. Keputusan
 
-Hasil uji statistik  `zstat = 1.849061` kurang dari nilai kritikal `critVal = 1.959964`. Maka gagal menolak H0 pada  α = 0.05, H0 diterima
+Hasil uji statistik  `zstat = 1.849061` kurang dari nilai kritikal `critVal = 1.959964`. Maka gagal menolak H0 pada  α = 0.05, H1 diterima
 
 ### 3f
 F. Kesimpulan
