@@ -249,7 +249,7 @@ C. Untuk uji ANOVA (satu arah), buatlah model linier dengan Panjang versus
 Grup dan beri nama model tersebut model 1.
 
 ```r
-model1 = lm(Length ~ Group, data = onewayanova)
+model1 = lm(Length ~ Group, data = data)
 anova(model1)
 ```
 ![no4c-jwb](https://user-images.githubusercontent.com/66405353/170904459-0f437d2b-a947-4fbe-9bc2-85c113ca0083.png)
@@ -286,7 +286,7 @@ F. Visualisasikan data dengan ggplot2
 ```r
 install.packages("ggplot2")
 library(ggplot2)
-ggplot(onewayanova, aes(x = Group, y = Length)) +
+ggplot(data, aes(x = Group, y = Length)) +
   geom_boxplot(color = c("#00AFBB", "#E7B800", "#FC4E07")) +
   scale_x_discrete() + xlab("Group") + ylab("Length (cm)")
 ```
